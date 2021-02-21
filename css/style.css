@@ -40,3 +40,14 @@
     color: wheat;
     height: 2em;
 }
+@media screen and (max-width: 600px)
+{
+    .flex-header
+    {
+        flex-direction: column;
+    }
+    .flex-body
+    {
+        flex-direction: column;
+    }
+}
