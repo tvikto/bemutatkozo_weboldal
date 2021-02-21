@@ -1,0 +1,42 @@
+.flex-container 
+{
+   display: flex;
+   background-color: DodgerBlue;
+   flex-direction: column;
+}
+  
+.flex-header
+{
+    background-color:yellow;
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-header>div
+{
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
+    width: 15%;
+    background-color: aqua;
+}
+.flex-body
+{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+}
+.flex-main
+{
+    width:80%;
+}
+.flex-right
+{
+    width: 20%;
+    background-color: violet;
+}
+.flex-footer
+{
+    flex-direction: row;
+    background-color: black;
+    color: wheat;
+    height: 2em;
+}
