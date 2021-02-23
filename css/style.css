@@ -35,7 +35,13 @@ div>a
 {
     display: flex;
     flex-flow: row wrap;
-    height: 500px;
+}
+img
+{
+   height: 200px; 
+   
+   margin: 2%;
+
 }
 .flex-main
 {
@@ -53,6 +59,7 @@ div>a
     color: wheat;
     height: 2em;
 }
+
 @media screen and (max-width: 600px)
 {
     .flex-header
