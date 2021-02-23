@@ -1,22 +1,35 @@
 .flex-container 
 {
    display: flex;
-   background-color: DodgerBlue;
    flex-direction: column;
 }
   
 .flex-header
 {
-    background-color:yellow;
+    background-image: url(../img/csonti.jpg);
     display: flex;
     flex-flow: row wrap;
+    padding-top: 2em;
 }
 .flex-header>div
 {
-    margin: 1% 1% 1% 1%;
-    padding: 1%;
-    width: 15%;
-    background-color: aqua;
+    padding: 1% 2% 1% 2%;
+    margin: 2% 1% 1% 0%;
+    background-color:rgb(245, 202, 92);
+    box-shadow:2px 5px rgb(250, 172, 3);
+    border-radius: 10%;
+}
+.flex-header>div :hover
+{
+    color: gray;
+    border-radius: 10%;
+    box-shadow: 2px 5px rgb(245, 202, 92);   
+}
+div>a
+{
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
+    font-weight: bold;
 }
 .flex-body
 {
@@ -31,12 +44,12 @@
 .flex-right
 {
     width: 20%;
-    background-color: violet;
+    background-color: rgb(245, 215, 171);
 }
 .flex-footer
 {
     flex-direction: row;
-    background-color: black;
+    background-color: gray;
     color: wheat;
     height: 2em;
 }
