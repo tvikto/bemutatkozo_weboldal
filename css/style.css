@@ -56,14 +56,13 @@ img:hover
 .flex-main
 {
     display: flex;
-    
     width: 85%;
 }
 .bekezd-pic
 {
     width: 40%;
     margin: 0.5%;
-    
+    border-radius: 10%;    
 }
 .flex-main>div
 {
@@ -95,6 +94,34 @@ img:hover
     text-align: justify;
     width: 30%;
 }
+.flex-lakt-main
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.flex-lakt-main>div
+{
+    margin: 1% 1% 1% 1%;
+    padding: 4%;    
+    border: 2px solid chocolate;
+    box-shadow: 2px 5px coral;
+    background-color:rgb(245, 202, 92);
+    box-shadow:2px 5px rgb(250, 172, 3);
+    border-radius: 10%;
+    
+}
+.lakt
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.lakt-pic
+{
+    width: 15%;
+    border-radius: 10%;
+}
 @media screen and (max-width: 1125px)
 {
     .flex-main
@@ -120,6 +147,15 @@ img:hover
     {
         width: 100%;
     }
+    .bekezd-pic
+    {
+        width: 10em;
+        margin: 1%;
+    }
+    .flex-lakt-pic
+    {
+        width: 30em;
+    }
 
 }
 @media screen and (max-width: 458px)
@@ -127,5 +163,21 @@ img:hover
     .galeria
     {
         width: 15em;
+    }
+    .bekezd-pic
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .lakt-pic
+    {
+        width: 10em;
+    }
+    .flex-lakt-pic
+    {
+        display: flex;
+        flex-direction: column;
     }
 }
