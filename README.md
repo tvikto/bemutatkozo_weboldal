@@ -1,1 +1,2 @@
-# bemutatkozo_weboldal
+# ebugatta
+https://tvikto.github.io/ebugatta/
