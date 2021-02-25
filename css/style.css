@@ -27,7 +27,7 @@ body
 {
     color: gray;
     border-radius: 10%;
-    box-shadow: 2px 5px rgb(245, 202, 92);   
+    box-shadow: 2px 5px rgb(245, 202, 92); 
 }
 div>a
 {
@@ -72,13 +72,12 @@ img:hover
 {
     width: 15%;
     background-color:rgb(245, 202, 92);
-    
+    border-radius: 0.5em;
 }
 .flex-footer
 {
     background-image: url(../img/csonti.jpg);
     flex-direction: row;
-    background-color: gray;
     color: wheat;
     height: 2em;
     text-align: right;
@@ -151,6 +150,10 @@ li>a
     text-decoration: none;
     color: black;
 }
+li:hover
+{
+    background-color: coral;
+}
 @media screen and (max-width: 1125px)
 {
     .flex-main
@@ -159,14 +162,14 @@ li>a
     }
     .bekezd
     {
-        width: 40%;
+        width: 45%;
     }
 }
 @media screen and (max-width: 800px)
 {
     .flex-body
     {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .flex-main
     {
@@ -194,7 +197,14 @@ li>a
     {
         width: 30em;
     }
-
+    .lakt
+    {
+        width: 105%;
+    }
+    li
+    {
+        margin: 1%;
+    }
 }
 @media screen and (max-width:600px)
 {
