@@ -130,6 +130,27 @@ img:hover
    border-radius: 1em;
    padding: 0.3em;
 }
+ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: -20%;
+}
+li
+{
+    padding: 0.3em;
+    background-color:rgb(255, 242, 145);
+    margin: 2%;
+    border: 1px solid  coral;
+    border-radius: 25px;
+    text-align: center;
+}
+li>a
+{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width: 1125px)
 {
     .flex-main
@@ -150,10 +171,19 @@ img:hover
     .flex-main
     {
         flex-direction: column;
+        width: 100%;
+    }
+    .flex-right
+    {
+    width: 100%;
+    }
+    ul
+    {
+        margin-left: -5%;
     }
     .bekezd
     {
-        width: 100%;
+        width: 95%;
     }
     .bekezd-pic
     {
@@ -176,6 +206,10 @@ img:hover
     {
         display: flex;
         flex-direction: column;
+    }
+    ul
+    {
+        margin-left: -8%;
     }
 }
 @media screen and (max-width:481px)
